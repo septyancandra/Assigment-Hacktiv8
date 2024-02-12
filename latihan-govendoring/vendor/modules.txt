@@ -1,0 +1,7 @@
+# github.com/novalagung/gubrak v1.0.0
+## explicit
+# github.com/novalagung/gubrak/v2 v2.0.1
+## explicit
+github.com/novalagung/gubrak/v2
+# github.com/stretchr/testify v1.4.0
+## explicit
