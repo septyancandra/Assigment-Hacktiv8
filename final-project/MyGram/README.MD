@@ -42,8 +42,8 @@ Setiap field pada keempat table tersebut harus melewati validasi sesuai dengan k
 
 Dengan MyGram, pengguna dapat dengan mudah berbagi foto, membuat komentar, dan berinteraksi dengan pengguna lainnya dalam platform media sosial yang aman dan terstruktur.
 
-## Endpoint-endpoint yang Harus Dibuat
-Berikut adalah daftar endpoint-endpoint yang harus disediakan dalam aplikasi MyGram:
+## Endpoint-endpoint yang ada
+Berikut adalah daftar endpoint-endpoint yang disediakan dalam aplikasi MyGram:
 
 #### 1. User
 ```
