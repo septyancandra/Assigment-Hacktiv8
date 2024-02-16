@@ -1,5 +1,9 @@
 # MyGram - Aplikasi Media Sosial untuk Berbagi Foto dan Komentar
 
+# Photo About this Project => https://github.com/septyancandra/Assigment-Hacktiv8/tree/main/final-project
+
+See Postman Collection --->> https://github.com/septyancandra/Assigment-Hacktiv8/blob/main/final-project/final-project-golang-hacktiv8.postman_collection.json
+
 * [Photo](#photo)
 * [User](#user)
 * [Comment](#comment)
