@@ -2,6 +2,11 @@
 
 MyGram adalah sebuah aplikasi media sosial yang memungkinkan pengguna untuk menyimpan foto serta membuat komentar untuk foto orang lain. Aplikasi ini dilengkapi dengan proses CRUD (Create, Read, Update, Delete) yang memungkinkan pengguna untuk berinteraksi dengan data secara penuh. Dalam pengembangan aplikasi ini, digunakan framework Gin Gonic dan ORM Gorm untuk mempermudah proses pengembangan.
 
+* [Photo](#photo)
+* [User](#user)
+* [Comment](#comment)
+* [Social Media](#social-media)
+
 ## Daftar Table
 Dalam proyek MyGram, terdapat empat table utama yang diperlukan. Berikut merupakan detailnya:
 
@@ -79,4 +84,44 @@ DeleteSocialMedia [DELETE]: Menghapus media sosial.
 ```
 
 Dengan menyediakan endpoint-endpoint ini, MyGram memungkinkan pengguna untuk melakukan berbagai operasi CRUD serta berinteraksi dengan data foto, komentar, pengguna, dan media sosial dengan mudah dan aman
+
+# Photo
+
+## POST Create Photo
+
+POST /photos
+
+> Body Parameters
+
+```yaml
+title: Someday 2
+photo_url: https://upload.wikimedia.org/wikipedia/commons/8/82/Pemandangan_Gunung_Kerinci_Dari_Swarga_Village_01.jpg
+caption: Pray Until Something Happend
+
+```
+
+### Params
+
+|Name|Location|Type|Required|Description|
+|---|---|---|---|---|
+|body|body|object| no |none|
+|» title|body|string| yes |none|
+|» photo_url|body|string| yes |none|
+|» caption|body|string| yes |none|
+
+> Response Examples
+
+> Create First Photo
+
+```json
+{
+    "id": 3,
+    "title": "Someday 2",
+    "caption": "Pray Until Something Happend",
+    "photo_url": "https://www.instagram.com/septyancandra/",
+    "user_id": 1,
+    "created_at": "2024-02-16T19:41:23.890961+07:00"
+}
+```
+
 
